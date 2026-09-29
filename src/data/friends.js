@@ -1331,7 +1331,7 @@ export const friends = [
     "hint": "Data do meu aniversário completa com o ano 😬 (dia, mês e ano, ex: 16/08/06 = 160806)",
     "reward": {
       "type": "text",
-      "message": "achou! tem poucas pessoas que me fazem sentir do jeito que você me faz, fico grato de te conhecer"
+      "message": "Thais você é lindissima, adoro nossos rolês, meu sonho te gravar beijando outro homem de novo kkkkkkkkkkk, vamos sair porfavorrr, te adoro <3"
     },
     "id": 111
   },

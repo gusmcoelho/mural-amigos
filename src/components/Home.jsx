@@ -37,7 +37,7 @@ export default function Home() {
           <Doodle k="smile" s={52} />
         </button>
         {secret >= 0 && <p className="bubble" key={secret}>{SECRETS[secret]}</p>}
-        <h1 className="title"><span>VOCÊ</span> <span>CONSEGUE</span> <span>DESCOBRIR?</span></h1>
+        <h1 className="title"><span>ADIVINHE</span> <span>A SENHA:</span> <span>GUSTAVO MOREIRA</span></h1>
         <Doodle k="squiggle" s={150} className="squig" />
         <ul className="steps">
           <li>1. escolha você no mural</li>
