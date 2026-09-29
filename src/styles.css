@@ -47,8 +47,8 @@ a{color:inherit;text-decoration:none}
 .results{margin-top:14px;display:grid;gap:8px}
 .res{display:flex;align-items:center;gap:12px;padding:8px;border:2px dashed var(--ink);border-radius:10px;background:#fffdf5;min-height:60px}
 .res:active,.res:hover{background:var(--yellow);transform:rotate(-1deg)}
-.res img{width:48px;height:48px;object-fit:cover;border:3px solid #fff;outline:2px solid var(--ink);transform:rotate(-4deg)}
-.res span{display:flex;flex-direction:column}.res small{opacity:.7}
+.res img{width:48px;height:48px;min-width:48px;flex-shrink:0;object-fit:cover;border:3px solid #fff;outline:2px solid var(--ink);transform:rotate(-4deg);border-radius:4px}
+.res span{display:flex;flex-direction:column;min-width:0;overflow:hidden}.res small{opacity:.7}
 
 /* ---------- mural ---------- */
 .mural-title{text-align:center;margin:44px 0 10px;font-size:1.9rem}.mural-title small{font-size:1.2rem;opacity:.7}
