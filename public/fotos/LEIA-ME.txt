@@ -1,0 +1,3 @@
+Coloque aqui as fotos de perfil: 1.jpg, 2.jpg ... 126.jpg
+Recompensas (fotos, GIFs, vídeos) podem ir em public/fotos/rewards/
+Depois referencie no arquivo src/data/friends.js, ex.: photo: "/fotos/7.jpg"
